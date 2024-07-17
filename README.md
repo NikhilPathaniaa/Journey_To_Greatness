@@ -4,7 +4,7 @@ Constant Time: O(1)
 When your algorithm is not dependent on the input size n, it is said to have a constant time complexity with order O(1). This means that the run time will always be the same regardless of the input size.
 
 For example, if an algorithm is to return the first element of an array. Even if the array has 1 million elements, the time complexity will be constant if you use this approach:
-```
+```java
 class Test
 {
     public static void main(String []args)
