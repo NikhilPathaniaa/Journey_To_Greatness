@@ -18,7 +18,7 @@ The function above will require only one execution step, meaning the function is
 
 But as I said earlier, there are various ways to achieve a solution in programming. Another programmer might decide to first loop through the array before returning the first element:
 
-```java
+```javascript
 const firstElement = (array) => {
   for (let i = 0; i < array.length; i++) {
     return array[0];
@@ -36,7 +36,7 @@ You get linear time complexity when the running time of an algorithm increases l
 
 For example, if an algorithm is to return the factorial of any inputted number. This means if you input 5 then you are to loop through and multiply 1 by 2 by 3 by 4 and by 5 and then output 120:
 
-```java
+```js
 const calcFactorial = (n) => {
   let factorial = 1;
   for (let i = 2; i <= n; i++) {
