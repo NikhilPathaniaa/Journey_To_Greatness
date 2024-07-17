@@ -18,6 +18,7 @@ The function above will require only one execution step, meaning the function is
 
 But as I said earlier, there are various ways to achieve a solution in programming. Another programmer might decide to first loop through the array before returning the first element:
 
+```java
 const firstElement = (array) => {
   for (let i = 0; i < array.length; i++) {
     return array[0];
@@ -26,6 +27,8 @@ const firstElement = (array) => {
 
 let score = [12, 55, 67, 94, 22];
 console.log(firstElement(score)); // 12
+```
+
 This is just an example – likely nobody would do this. But if there is a loop, this is no longer constant time but now linear time with the time complexity O(n).
 
 Linear Time: O(n)
@@ -33,6 +36,7 @@ You get linear time complexity when the running time of an algorithm increases l
 
 For example, if an algorithm is to return the factorial of any inputted number. This means if you input 5 then you are to loop through and multiply 1 by 2 by 3 by 4 and by 5 and then output 120:
 
+```java
 const calcFactorial = (n) => {
   let factorial = 1;
   for (let i = 2; i <= n; i++) {
@@ -40,6 +44,7 @@ const calcFactorial = (n) => {
   }
   return factorial;
 };
+```
 
 console.log(calcFactorial(5)); // 120
 The fact that the runtime depends on the input size means that the time complexity is linear with the order O(n).
@@ -52,6 +57,8 @@ This method is the second best because your program runs for half the input size
 A great example is binary search functions, which divide your sorted array based on the target value.
 
 For example, suppose you use a binary search algorithm to find the index of a given element in an array:
+
+```java
 
 const binarySearch = (array, target) => {
   let firstIndex = 0;
@@ -74,6 +81,8 @@ const binarySearch = (array, target) => {
 
 let score = [12, 22, 45, 67, 96];
 console.log(binarySearch(score, 96));
+```
+
 In the code above, since it is a binary search, you first get the middle index of your array, compare it to the target value, and return the middle index if it is equal. Otherwise, you must check if the target value is greater or less than the middle value to adjust the first and last index, reducing the input size by half.
 
 Because for every iteration the input size reduces by half, the time complexity is logarithmic with the order O(log n).
@@ -83,8 +92,9 @@ When you perform nested iteration, meaning having a loop in a loop, the time com
 
 A perfect way to explain this would be if you have an array with n items. The outer loop will run n times, and the inner loop will run n times for each iteration of the outer loop, which will give total n^2 prints. If the array has ten items, ten will print 100 times (10^2).
 
-Here is an example by Jared Nielsen, where you compare each element in an array to output the index when two elements are similar:
+Here is an example by Jared Nielsen, where you compare each element in an array to output the index when two elements are similar
 
+```java
 const matchElements = (array) => {
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length; j++) {
@@ -98,20 +108,8 @@ const matchElements = (array) => {
 
 const fruit = ["🍓", "🍐", "🍊", "🍌", "🍍", "🍑", "🍎", "🍈", "🍊", "🍇"];
 console.log(matchElements(fruit)); // "Match found at 2 and 8"
+```
 
-const matchElements = (array) => {
-  for (let i = 0; i < array.length; i++) {
-    for (let j = 0; j < array.length; j++) {
-      if (i !== j && array[i] === array[j]) {
-        return `Match found at ${i} and ${j}`;
-      }
-    }
-  }
-  return "No matches found 😞";
-};
-
-const fruit = ["🍓", "🍐", "🍊", "🍌", "🍍", "🍑", "🍎", "🍈", "🍊", "🍇"];
-console.log(matchElements(fruit)); // "Match found at 2 and 8"
 In the example above, there is a nested loop, meaning that the time complexity is quadratic with the order O(n^2).
 
 Exponential Time: O(2^n)
