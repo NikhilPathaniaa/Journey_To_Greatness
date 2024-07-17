@@ -5,12 +5,13 @@ When your algorithm is not dependent on the input size n, it is said to have a c
 
 For example, if an algorithm is to return the first element of an array. Even if the array has 1 million elements, the time complexity will be constant if you use this approach:
 ```
-const firstElement = (array) => {
-  return array[0];
+class Test
+{
+    public static void main(String []args)
+    {
+        System.out.println("My First Java Program.");
+    }
 };
-
-let score = [12, 55, 67, 94, 22];
-console.log(firstElement(score)); // 12
 
 ```
 The function above will require only one execution step, meaning the function is in constant time with time complexity O(1).
