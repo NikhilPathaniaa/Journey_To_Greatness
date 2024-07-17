@@ -44,9 +44,9 @@ const calcFactorial = (n) => {
   }
   return factorial;
 };
-```
 
 console.log(calcFactorial(5)); // 120
+```
 The fact that the runtime depends on the input size means that the time complexity is linear with the order O(n).
 
 Logarithm Time: O(log n)
@@ -121,12 +121,13 @@ The Fibonacci sequence is a mathematical sequence in which each number is the su
 
 This means that if you pass in 6, then the 6th element in the Fibonacci sequence would be 8:
 
+```js
 const recursiveFibonacci = (n) => {
   if (n < 2) {
     return n;
   }
   return recursiveFibonacci(n - 1) + recursiveFibonacci(n - 2);
 };
-
+```
 console.log(recursiveFibonacci(6)); // 8
 In the code above, the algorithm specifies a growth rate that doubles every time the input data set is added. This means the time complexity is exponential with an order O(2^n).
