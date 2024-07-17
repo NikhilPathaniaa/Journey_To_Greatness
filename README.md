@@ -31,7 +31,7 @@ console.log(firstElement(score)); // 12
 
 This is just an example – likely nobody would do this. But if there is a loop, this is no longer constant time but now linear time with the time complexity O(n).
 
-<b>Linear Time: O(n)<b>
+<b>Linear Time: O(n)</b>
 You get linear time complexity when the running time of an algorithm increases linearly with the size of the input. This means that when a function has an iteration that iterates over an input size of n, it is said to have a time complexity of order O(n).
 
 For example, if an algorithm is to return the factorial of any inputted number. This means if you input 5 then you are to loop through and multiply 1 by 2 by 3 by 4 and by 5 and then output 120:
