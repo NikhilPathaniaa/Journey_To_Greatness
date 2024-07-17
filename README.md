@@ -4,13 +4,15 @@ Constant Time: O(1)
 When your algorithm is not dependent on the input size n, it is said to have a constant time complexity with order O(1). This means that the run time will always be the same regardless of the input size.
 
 For example, if an algorithm is to return the first element of an array. Even if the array has 1 million elements, the time complexity will be constant if you use this approach:
-
+```
 const firstElement = (array) => {
   return array[0];
 };
 
 let score = [12, 55, 67, 94, 22];
 console.log(firstElement(score)); // 12
+
+```
 The function above will require only one execution step, meaning the function is in constant time with time complexity O(1).
 
 But as I said earlier, there are various ways to achieve a solution in programming. Another programmer might decide to first loop through the array before returning the first element:
