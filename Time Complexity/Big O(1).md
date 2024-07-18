@@ -4,6 +4,18 @@
 - [If else](#if-else)
 - [Nested if-else](#Nested-if-else)
 - [Switch Case](#Switch-case)
+- [ O(1) Time Complexity Examples ]
+-   1. [Variable Assignment](#1-variable-assignment)
+    2. [Accessing an Array Element](#2-accessing-an-array-element)
+    3. [Arithmetic Operations](#3-arithmetic-operations)
+    4. [Method Invocation](#5-method-invocation)
+    5. [Ternary Operation](#6-ternary-operation)
+    6. [Creating and Using an Object](#7-creating-and-using-an-object)
+    7. [Setting a Value in a Map](#8-setting-a-value-in-a-map)
+    8. [Returning a Constant Value from a Method](#9-returning-a-constant-value-from-a-method)
+    9. [Single Iteration Loops](#10-single-iteration-loops)
+    10. [Standard Library Operations](#12-standard-library-operations)
+
   
  # Time Complexity of the Given Code
 The given Java code snippet has the following structure:
@@ -272,18 +284,6 @@ O(1).
 # O(1) Time Complexity Examples
 
 This document contains examples of code snippets with constant time complexity, \(O(1)\). Each operation in these examples takes a constant amount of time, regardless of input size.
-
-## Index
-1. [Variable Assignment](#1-variable-assignment)
-2. [Accessing an Array Element](#2-accessing-an-array-element)
-3. [Arithmetic Operations](#3-arithmetic-operations)
-4. [Method Invocation](#5-method-invocation)
-5. [Ternary Operation](#6-ternary-operation)
-6. [Creating and Using an Object](#7-creating-and-using-an-object)
-7. [Setting a Value in a Map](#8-setting-a-value-in-a-map)
-8. [Returning a Constant Value from a Method](#9-returning-a-constant-value-from-a-method)
-9. [Single Iteration Loops](#10-single-iteration-loops)
-10. [Standard Library Operations](#12-standard-library-operations)
 
 ## 1. **Variable Assignment** ✏️
 
