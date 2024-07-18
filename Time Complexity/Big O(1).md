@@ -1,7 +1,7 @@
-## Table of Contents
+# Time Complexity of Big O(1)
 
-- [Time Complexity](#Time-complexity)
-- [if-else](#if-else)
+## Table of Contents
+- [If else](#if-else)
 - [Nested if-else](#Nested-if-else)
 - [Switch Case](#Switch-case)
   
@@ -31,7 +31,7 @@ O(1).
 Since there are no loops or recursive calls, the overall time complexity of this code is 
 O(1).
 <br>
-# Another Example
+# If else
 <br>
 The given Java code snippet has the following structure:
 
