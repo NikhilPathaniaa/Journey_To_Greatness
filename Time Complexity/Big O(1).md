@@ -299,7 +299,7 @@ public class Example1 {
     }
 }
 ```
-## 2. **Accessing an Array Element 📚
+## 2. Accessing an Array Element 📚
 
 ```java
 public class Example2 {
