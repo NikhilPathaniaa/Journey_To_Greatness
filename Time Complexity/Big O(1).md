@@ -1,4 +1,9 @@
-﻿# Time Complexity of the Given Code
+## Table of Contents
+
+- [Time Complexity](#Time-complexity)
+- [Nested if-else](#Nested-if-else)
+- 
+ # Time Complexity of the Given Code
 The given Java code snippet has the following structure:
 
 ```java
