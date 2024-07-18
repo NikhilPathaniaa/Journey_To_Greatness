@@ -24,7 +24,7 @@ O(1).
 Since there are no loops or recursive calls, the overall time complexity of this code is 
 O(1).
 <br>
-#Another Example
+# Another Example
 <br>
 ```java
 public class Main
