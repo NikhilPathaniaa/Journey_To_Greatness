@@ -4,10 +4,10 @@ The given Java code snippet has the following structure:
 ```java
 public class Time_Complexity {
     public static void main(String[] args) {
-        int a = 10; // Constant time operation O(1)
-        int b = 10; // Constant time operation O(1)
-        int c = a + b; // Constant time operation O(1)
-        System.out.println(c); // Constant time operation O(1)
+        int a = 10;
+        int b = 10;
+        int c = a + b;
+        System.out.println(c);
     }
 }
 ```
@@ -23,7 +23,9 @@ O(1).
 <br>
 Since there are no loops or recursive calls, the overall time complexity of this code is 
 O(1).
-
+<br>
+#Another Example
+<br>
 ```java
 public class Main
 {
