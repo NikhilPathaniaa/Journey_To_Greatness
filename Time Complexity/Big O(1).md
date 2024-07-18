@@ -1,8 +1,10 @@
 ## Table of Contents
 
 - [Time Complexity](#Time-complexity)
+- [if-else](#if-else)
 - [Nested if-else](#Nested-if-else)
-- 
+- [Switch Case](#Switch-case)
+  
  # Time Complexity of the Given Code
 The given Java code snippet has the following structure:
 
@@ -161,7 +163,7 @@ O(1).
 The comparison 10 == '10' is always false because 10 is an integer and '10' is a character literal, which are not the same.
 <br>
 
-## Switch case
+## Switch Case
 Code Analysis
 
 ```java
