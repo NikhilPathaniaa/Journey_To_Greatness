@@ -59,28 +59,25 @@ public class Main
         }
     }
 }
+
 ```
+
 Time Complexity Analysis
 Variable Initialization: int a = 10;
-
-This is a single assignment operation, which takes constant time, 
-O(1).
-<br>
+<br><br>
+This is a single assignment operation, which takes constant time, O(1).
+<br><br>
 If-Else Statement: if(a == 10)
-The comparison a == 10 is a constant time operation, 
-O(1).
-<br>
+The comparison a == 10 is a constant time operation, O(1).
+<br><br>
 Print Statement: System.out.println("true"); and System.out.println("false");
+<br><br>
+Both print statements are constant time operations, O(1).
+<br><br>
+Since all operations in the code are constant time operations and there are no loops or recursive calls, the overall time complexity is O(1).
 <br>
-Both print statements are constant time operations, 
-O(1).
-
-<br>
-Since all operations in the code are constant time operations and there are no loops or recursive calls, the overall time complexity is 
-O(1).
-
 ## Nested if-else
-Code Analysis
+
 ```java
 public class Main
 {
@@ -106,74 +103,20 @@ public class Main
 Time Complexity Analysis
 Variable Initialization: int a = 10;
 ```
-This is a single assignment operation, which takes constant time, 
-O(1).
-If-Else Statements:
-
-The outer if(a == 10) comparison is a constant time operation, 
-O(1).
-The inner if(10 == '10') comparison is also a constant time operation, 
-O(1).
-Print Statements:
-
-System.out.println("true"); and System.out.println("false"); are constant time operations, 
-O(1).
-
-Note on Comparison 10 == '10'
-The comparison 10 == '10' is always false because 10 is an integer and '10' is a character literal which is not the same as the integer value 10.
-Overall Time Complexity
-Since all operations in the code are constant time operations and there are no loops or recursive calls, the overall time complexity is 
-O(1).
-
-## Time Complexity of the Given Code
-
-The given Java code snippet has the following structure:
-
-```java
-public class Main
-{
-    public static void main(String[] args) {
-        int a = 10;
-        if(a == 10)
-        {
-            if("10".equals(a))
-            {
-                System.out.println("true");
-            }
-            else
-            {
-                System.out.println("false");
-            }
-        }
-        else
-        {
-            System.out.println("false");
-        }
-    }
-}
-Time Complexity Analysis
-Variable Initialization: int a = 10;
-```
-This is a single assignment operation, which takes constant time, 
-O(1).
-If-Else Statements:
-
-The outer if(a == 10) comparison is a constant time operation, 
-O(1).
-The inner if(10 == '10') comparison is also a constant time operation, 
-O(1).
-Print Statements:
-
-System.out.println("true"); and System.out.println("false"); are constant time operations, 
-O(1).
-Since all operations in the code are constant time operations and there are no loops or recursive calls, the overall time complexity is 
-O(1).
-
-The comparison 10 == '10' is always false because 10 is an integer and '10' is a character literal, which are not the same.
+This is a single assignment operation, which takes constant time, O(1).
+<br><br>
+If-Else Statements: The outer `if(a == 10)` comparison is a constant time operation, O(1).
+<br><br>
+The inner `if("10".equals(a))` comparison is also a constant time operation, O(1).
+<br><br>
+Print Statements : `System.out.println("true");` and `System.out.println("false");` are constant time operations, O(1).
+<br><br>
+Since all operations in the code are constant time operations and there are no loops or recursive calls, the overall time complexity is O(1).
+<br><br>
+The comparison `10 == "10" ` is always false because `10 is an integer and '10' is a String literal`, which are not the same.
 <br>
 
 ## Switch Case
-Code Analysis
 
 ```java
 public class Main {
@@ -207,78 +150,14 @@ public class Main {
 Time Complexity Analysis
 Variable Initialization: int day = 4;
 ```
-This is a single assignment operation, which takes constant time, 
 
-O(1).
-Switch Statement:
-
-The switch statement evaluates the value of day and jumps directly to the corresponding case. This jump operation is 
-
-O(1).
-Each case contains a System.out.println statement and a break statement, both of which are constant time operations, 
-
-O(1).
-Overall Time Complexity
-Since all operations in the code are constant time operations and there are no loops or recursive calls, the overall time complexity is 
-
-O(1).
-
-How to Include This in a README
-To include this code and its time complexity analysis in a README.md file, you can format it using Markdown like this:
-
-markdown
-Copy code
-## Time Complexity of the Given Code
-
-The given Java code snippet has the following structure:
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        int day = 4;
-        switch (day) {
-            case 1:
-                System.out.println("Monday");
-                break;
-            case 2:
-                System.out.println("Tuesday");
-                break;
-            case 3:
-                System.out.println("Wednesday");
-                break;
-            case 4:
-                System.out.println("Thursday");
-                break;
-            case 5:
-                System.out.println("Friday");
-                break;
-            case 6:
-                System.out.println("Saturday");
-                break;
-            case 7:
-                System.out.println("Sunday");
-                break;
-        }
-    }
-}
-Time Complexity Analysis
-Variable Initialization: int day = 4;
-```
-This is a single assignment operation, which takes constant time, 
-
-O(1).
-Switch Statement:
-
-The switch statement evaluates the value of day and jumps directly to the corresponding case. This jump operation is 
-
-O(1).
-Each case contains a System.out.println statement and a break statement, both of which are constant time operations, 
-
-O(1).
-Since all operations in the code are constant time operations and there are no loops or recursive calls, the overall time complexity is 
-
-O(1).
-
+This is a single assignment operation, which takes constant time, O(1).
+<br><br>
+Switch Statement : The switch statement evaluates the value of day and jumps directly to the corresponding case. This jump operation is O(1).
+<br><br>
+Each case contains a `System.out.println` statement and a break statement, both of which are constant time operations, O(1).
+<br><br>
+Since all operations in the code are constant time operations and there are no loops or recursive calls, the overall time complexity is O(1).
 <br>
 
 # O(1) Time Complexity Examples
