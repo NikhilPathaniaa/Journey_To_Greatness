@@ -4,8 +4,8 @@
 - [If else](#if-else)
 - [Nested if-else](#Nested-if-else)
 - [Switch Case](#Switch-case)
-- [ O(1) Time Complexity Examples ]
--   1. [Variable Assignment](#1-variable-assignment)
+- # Examples
+    1. [Variable Assignment](#1-variable-assignment)
     2. [Accessing an Array Element](#2-accessing-an-array-element)
     3. [Arithmetic Operations](#3-arithmetic-operations)
     4. [Method Invocation](#5-method-invocation)
