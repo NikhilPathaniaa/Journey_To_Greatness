@@ -7,7 +7,7 @@
 - Examples
     1. [Variable Assignment](#1-variable-assignment)
     2. [Accessing an Array Element](#2-accessing-an-array-element)
-    3. [Arithmetic Operations](#3.-Arithmetic-operations)
+    3. [Arithmetic Operations](#Arithmetic-operations)
     4. [Boolean Checks](#4-boolean-checks)
     5. [Method Invocation](#5-method-invocation)
     6. [Ternary Operation](#6-ternary-operation)
@@ -190,7 +190,7 @@ public class Example2 {
 }
 
 ```
-## 3. Arithmetic Operations
+## 3. ## Arithmetic Operations
 
 ```java
 public class Example3 {
