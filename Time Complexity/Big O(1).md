@@ -154,3 +154,111 @@ Since all operations in the code are constant time operations and there are no l
 O(1).
 
 The comparison 10 == '10' is always false because 10 is an integer and '10' is a character literal, which are not the same.
+<br>
+
+## Switch case
+Code Analysis
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int day = 4; // Constant time operation O(1)
+        switch (day) {
+            case 1:
+                System.out.println("Monday"); // Constant time operation O(1)
+                break;
+            case 2:
+                System.out.println("Tuesday"); // Constant time operation O(1)
+                break;
+            case 3:
+                System.out.println("Wednesday"); // Constant time operation O(1)
+                break;
+            case 4:
+                System.out.println("Thursday"); // Constant time operation O(1)
+                break;
+            case 5:
+                System.out.println("Friday"); // Constant time operation O(1)
+                break;
+            case 6:
+                System.out.println("Saturday"); // Constant time operation O(1)
+                break;
+            case 7:
+                System.out.println("Sunday"); // Constant time operation O(1)
+                break;
+        }
+    }
+}
+Time Complexity Analysis
+Variable Initialization: int day = 4;
+```
+This is a single assignment operation, which takes constant time, 
+
+O(1).
+Switch Statement:
+
+The switch statement evaluates the value of day and jumps directly to the corresponding case. This jump operation is 
+
+O(1).
+Each case contains a System.out.println statement and a break statement, both of which are constant time operations, 
+
+O(1).
+Overall Time Complexity
+Since all operations in the code are constant time operations and there are no loops or recursive calls, the overall time complexity is 
+
+O(1).
+
+How to Include This in a README
+To include this code and its time complexity analysis in a README.md file, you can format it using Markdown like this:
+
+markdown
+Copy code
+## Time Complexity of the Given Code
+
+The given Java code snippet has the following structure:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int day = 4;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+        }
+    }
+}
+Time Complexity Analysis
+Variable Initialization: int day = 4;
+```
+This is a single assignment operation, which takes constant time, 
+
+O(1).
+Switch Statement:
+
+The switch statement evaluates the value of day and jumps directly to the corresponding case. This jump operation is 
+
+O(1).
+Each case contains a System.out.println statement and a break statement, both of which are constant time operations, 
+
+O(1).
+Since all operations in the code are constant time operations and there are no loops or recursive calls, the overall time complexity is 
+
+O(1).
