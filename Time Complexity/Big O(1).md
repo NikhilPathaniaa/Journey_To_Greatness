@@ -269,3 +269,33 @@ O(1).
 Since all operations in the code are constant time operations and there are no loops or recursive calls, the overall time complexity is 
 
 O(1).
+
+<br>
+
+# O(1) Time Complexity Examples
+
+This document contains examples of code snippets with constant time complexity, \(O(1)\). Each operation in these examples takes a constant amount of time, regardless of input size.
+
+## Index
+1. [Variable Assignment](#1-variable-assignment)
+2. [Accessing an Array Element](#2-accessing-an-array-element)
+3. [Arithmetic Operations](#3-arithmetic-operations)
+4. [Boolean Checks](#4-boolean-checks)
+5. [Method Invocation](#5-method-invocation)
+6. [Ternary Operation](#6-ternary-operation)
+7. [Creating and Using an Object](#7-creating-and-using-an-object)
+8. [Setting a Value in a Map](#8-setting-a-value-in-a-map)
+9. [Returning a Constant Value from a Method](#9-returning-a-constant-value-from-a-method)
+
+## 1. **Variable Assignment** ✏️
+
+```java
+public class Example1 {
+    public static void main(String[] args) {
+        int a = 5; // Constant time operation O(1)
+        int b = 10; // Constant time operation O(1)
+        int c = a + b; // Constant time operation O(1)
+        System.out.println(c); // Constant time operation O(1)
+    }
+}
+```
