@@ -4,7 +4,7 @@
 - [If else](#if-else)
 - [Nested if-else](#Nested-if-else)
 - [Switch Case](#Switch-case)
-- # Examples
+- Examples
     1. [Variable Assignment](#1-variable-assignment)
     2. [Accessing an Array Element](#2-accessing-an-array-element)
     3. [Arithmetic Operations](#3-arithmetic-operations)
