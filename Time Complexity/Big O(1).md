@@ -5,7 +5,7 @@
 - [Nested if-else](#Nested-if-else)
 - [Switch Case](#Switch-case)
 - Examples
-    1. [Variable Assignment](#1-variable-assignment)
+    1. [Variable Assignment](#1-variable-assignment-✏️)
     2. [Accessing an Array Element](#2-accessing-an-array-element)
     3. [Arithmetic Operations](#3-arithmetic-operations)
     4. [Method Invocation](#5-method-invocation)
@@ -67,10 +67,10 @@ Variable Initialization: int a = 10;
 <br><br>
 This is a single assignment operation, which takes constant time, O(1).
 <br><br>
-If-Else Statement: if(a == 10)
-The comparison a == 10 is a constant time operation, O(1).
+If-Else Statement: `if(a == 10)`
+The comparison `a == 10` is a constant time operation, O(1).
 <br><br>
-Print Statement: System.out.println("true"); and System.out.println("false");
+Print Statement: `System.out.println("true");` and `System.out.println("false");`
 <br><br>
 Both print statements are constant time operations, O(1).
 <br><br>
