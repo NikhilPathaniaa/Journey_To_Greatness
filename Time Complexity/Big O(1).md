@@ -4,10 +4,10 @@ The given Java code snippet has the following structure:
 ```java
 public class Time_Complexity {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 10;
-        int c = a + b;
-        System.out.println(c);
+        int a = 10; // Constant time operation O(1)
+        int b = 10; // Constant time operation O(1)
+        int c = a + b; // Constant time operation O(1)
+        System.out.println(c); // Constant time operation O(1)
     }
 }
 ```
