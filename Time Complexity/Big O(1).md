@@ -22,15 +22,12 @@ public class Time_Complexity {
 Time Complexity Analysis
 The operations in the given code are constant time operations:
 
-Variable Initialization: `int a = 10;`, `int b = 10;`, and `int c = a + b;` are all constant time operations, 
-O(1).
-<br>
-Print Statement: `System.out.println(c);` is also a constant time operation, 
-O(1).
-<br>
-Since there are no loops or recursive calls, the overall time complexity of this code is 
-O(1).
-<br>
+Variable Initialization: `int a = 10;`, `int b = 10;`, and `int c = a + b;` are all constant time operations, O(1).
+<br><br>
+Print Statement: `System.out.println(c);` is also a constant time operation, O(1).
+<br><br>
+Since there are no loops or recursive calls, the overall time complexity of this code is O(1).
+<br><br>
 # If else
 <br>
 The given Java code snippet has the following structure:
