@@ -280,12 +280,13 @@ This document contains examples of code snippets with constant time complexity, 
 1. [Variable Assignment](#1-variable-assignment)
 2. [Accessing an Array Element](#2-accessing-an-array-element)
 3. [Arithmetic Operations](#3-arithmetic-operations)
-4. [Boolean Checks](#4-boolean-checks)
-5. [Method Invocation](#5-method-invocation)
-6. [Ternary Operation](#6-ternary-operation)
-7. [Creating and Using an Object](#7-creating-and-using-an-object)
-8. [Setting a Value in a Map](#8-setting-a-value-in-a-map)
-9. [Returning a Constant Value from a Method](#9-returning-a-constant-value-from-a-method)
+4. [Method Invocation](#5-method-invocation)
+5. [Ternary Operation](#6-ternary-operation)
+6. [Creating and Using an Object](#7-creating-and-using-an-object)
+7. [Setting a Value in a Map](#8-setting-a-value-in-a-map)
+8. [Returning a Constant Value from a Method](#9-returning-a-constant-value-from-a-method)
+9. [Single Iteration Loops](#10-single-iteration-loops)
+10. [Standard Library Operations](#12-standard-library-operations)
 
 ## 1. **Variable Assignment** ✏️
 
@@ -310,4 +311,123 @@ public class Example2 {
     }
 }
 
+```
+## 3. Arithmetic Operations ➕➖✖️➗
+
+```java
+public class Example3 {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        int sum = x + y; // Constant time operation O(1)
+        int product = x * y; // Constant time operation O(1)
+        System.out.println("Sum: " + sum); // Constant time operation O(1)
+        System.out.println("Product: " + product); // Constant time operation O(1)
+    }
+}
+
+```
+## 4. Method Invocation 🛎️
+
+```java
+public class Example5 {
+    public static void main(String[] args) {
+        greet(); // Constant time operation O(1)
+    }
+
+    public static void greet() {
+        System.out.println("Hello, World!"); // Constant time operation O(1)
+    }
+}
+
+```
+## 5. Ternary Operation 🔄
+
+```java
+public class Example6 {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int max = (a > b) ? a : b; // Constant time operation O(1)
+        System.out.println("Max: " + max); // Constant time operation O(1)
+    }
+}
+
+```
+## 6. Creating and Using an Object 🛠️
+
+```java
+public class Example7 {
+    public static void main(String[] args) {
+        Point p = new Point(2, 3); // Constant time operation O(1)
+        System.out.println(p); // Constant time operation O(1)
+    }
+}
+
+class Point {
+    int x, y;
+
+    Point(int x, int y) {
+        this.x = x; // Constant time operation O(1)
+        this.y = y; // Constant time operation O(1)
+    }
+
+    @Override
+    public String toString() {
+        return "Point(" + x + ", " + y + ")"; // Constant time operation O(1)
+    }
+}
+
+## 7. Setting a Value in a Map 🗺️
+
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class Example8 {
+    public static void main(String[] args) {
+        Map<String, Integer> map = new HashMap<>();
+        map.put("key", 100); // Constant time operation O(1)
+        System.out.println(map.get("key")); // Constant time operation O(1)
+    }
+}
+```
+## 8. Returning a Constant Value from a Method 🔙
+
+```java
+public class Example9 {
+    public static void main(String[] args) {
+        int result = getValue(); // Constant time operation O(1)
+        System.out.println(result); // Constant time operation O(1)
+    }
+
+    public static int getValue() {
+        return 42; // Constant time operation O(1)
+    }
+}
+```
+## 9. Single Iteration Loops 🔁
+
+```java
+public class Example10 {
+    public static void main(String[] args) {
+        for (int i = 0; i < 1; i++) {
+            System.out.println("This loop runs once."); // Constant time operation O(1)
+        }
+    }
+}
+```
+## 10. 12. Standard Library Operations 📚
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class Example12 {
+    public static void main(String[] args) {
+        List<String> list = new ArrayList<>();
+        list.add("Element"); // Constant time operation O(1)
+        System.out.println(list.get(0)); // Constant time operation O(1)
+    }
+}
 ```
