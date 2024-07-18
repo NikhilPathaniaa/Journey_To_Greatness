@@ -5,18 +5,18 @@
 - [Nested if-else](#Nested-if-else)
 - [Switch Case](#Switch-case)
 - Examples
-    1. [Variable Assignment](#1-variable-assignment-✏️)
-    2. [Accessing an Array Element](#2-accessing-an-array-element-📚)
-    3. [Arithmetic Operations](#3-arithmetic-operations-➕➖✖️➗)
-    4. [Boolean Checks](#4-boolean-checks-✅❌)
-    5. [Method Invocation](#5-method-invocation-🛎️)
-    6. [Ternary Operation](#6-ternary-operation-🔄)
-    7. [Creating and Using an Object](#7-creating-and-using-an-object-🛠️)
-    8. [Setting a Value in a Map](#8-setting-a-value-in-a-map-🗺️)
-    9. [Returning a Constant Value from a Method](#9-returning-a-constant-value-from-a-method-🔙)
-    10. [Single Iteration Loops](#10-single-iteration-loops-🔁)
-    11. [Basic Conditional Statements](#11-basic-conditional-statements-⚖️)
-    12. [Standard Library Operations](#12-standard-library-operations-📚)
+    1. [Variable Assignment](#1-variable-assignment)
+    2. [Accessing an Array Element](#2-accessing-an-array-element)
+    3. [Arithmetic Operations](#3-arithmetic-operations)
+    4. [Boolean Checks](#4-boolean-checks)
+    5. [Method Invocation](#5-method-invocation)
+    6. [Ternary Operation](#6-ternary-operation)
+    7. [Creating and Using an Object](#7-creating-and-using-an-object)
+    8. [Setting a Value in a Map](#8-setting-a-value-in-a-map)
+    9. [Returning a Constant Value from a Method](#9-returning-a-constant-value-from-a-method)
+    10. [Single Iteration Loops](#10-single-iteration-loops)
+    11. [Basic Conditional Statements](#11-basic-conditional-statements)
+    12. [Standard Library Operations](#12-standard-library-operations)
 
   
  # Time Complexity of the Given Code
@@ -166,7 +166,7 @@ Since all operations in the code are constant time operations and there are no l
 
 Each operation in these examples takes a constant amount of time \(O(1)\), regardless of input size.
 
-## 1. **Variable Assignment** ✏️
+## Variable Assignment
 
 ```java
 public class Example1 {
