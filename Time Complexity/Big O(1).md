@@ -190,7 +190,7 @@ public class Example2 {
 }
 
 ```
-# 3. Arithmetic Operations ➕➖✖️➗
+# Arithmetic Operations
 
 ```java
 public class Example3 {
