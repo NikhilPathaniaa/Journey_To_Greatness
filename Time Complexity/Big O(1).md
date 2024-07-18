@@ -5,18 +5,16 @@
 - [Nested if-else](#Nested-if-else)
 - [Switch Case](#Switch-case)
 - Examples
-    1. [Variable Assignment](#1-variable-assignment)
-    2. [Accessing an Array Element](#2-accessing-an-array-element)
+    1. [Variable Assignment](#Variable-assignment)
+    2. [Accessing an Array Element](#Accessing-an-array-element)
     3. [Arithmetic Operations](#Arithmetic-operations)
-    4. [Boolean Checks](#4-boolean-checks)
-    5. [Method Invocation](#5-method-invocation)
-    6. [Ternary Operation](#6-ternary-operation)
-    7. [Creating and Using an Object](#7-creating-and-using-an-object)
-    8. [Setting a Value in a Map](#8-setting-a-value-in-a-map)
-    9. [Returning a Constant Value from a Method](#9-returning-a-constant-value-from-a-method)
-    10. [Single Iteration Loops](#10-single-iteration-loops)
-    11. [Basic Conditional Statements](#11-basic-conditional-statements)
-    12. [Standard Library Operations](#12-standard-library-operations)
+    4. [Method Invocation](#Method-invocation)
+    5. [Ternary Operation](#Ternary-operation)
+    6. [Creating and Using an Object](#Creating-and-using-an-object)
+    7. [Setting a Value in a Map](#Setting-a-value-in-a-map)
+    8. [Returning a Constant Value from a Method](#Returning-a-constant-value-from-a-method)
+    9. [Single Iteration Loops](#Single-iteration-loops)
+    10. [Standard Library Operations](#Standard-library-operations)
 
   
  # Time Complexity of the Given Code
@@ -178,7 +176,7 @@ public class Example1 {
     }
 }
 ```
-## 2. Accessing an Array Element 📚
+## Accessing an Array Element
 
 ```java
 public class Example2 {
@@ -190,7 +188,7 @@ public class Example2 {
 }
 
 ```
-## 3. ## Arithmetic Operations
+## Arithmetic Operations
 
 ```java
 public class Example3 {
@@ -205,7 +203,7 @@ public class Example3 {
 }
 
 ```
-## 4. Method Invocation 🛎️
+## 4. Method Invocation
 
 ```java
 public class Example5 {
@@ -219,7 +217,7 @@ public class Example5 {
 }
 
 ```
-## 5. Ternary Operation 🔄
+## 5. Ternary Operation
 
 ```java
 public class Example6 {
@@ -232,7 +230,7 @@ public class Example6 {
 }
 
 ```
-## 6. Creating and Using an Object 🛠️
+## 6. Creating and Using an Object
 
 ```java
 public class Example7 {
@@ -256,7 +254,7 @@ class Point {
     }
 }
 ```
-## 7. Setting a Value in a Map 🗺️
+## 7. Setting a Value in a Map
 
 ```java
 import java.util.HashMap;
@@ -270,7 +268,7 @@ public class Example8 {
     }
 }
 ```
-## 8. Returning a Constant Value from a Method 🔙
+## 8. Returning a Constant Value from a Method
 
 ```java
 public class Example9 {
@@ -284,7 +282,7 @@ public class Example9 {
     }
 }
 ```
-## 9. Single Iteration Loops 🔁
+## 9. Single Iteration Loops
 
 ```java
 public class Example10 {
@@ -295,7 +293,7 @@ public class Example10 {
     }
 }
 ```
-## 10. Standard Library Operations 📚
+## 10. Standard Library Operations
 
 ```java
 import java.util.ArrayList;
