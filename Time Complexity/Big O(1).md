@@ -72,7 +72,7 @@ public class Main
         int a = 10; // Constant time operation O(1)
         if(a == 10) // Constant time operation O(1)
         {
-            if(10 == '10') // Constant time operation O(1)
+            if("10".equals(a)) // Constant time operation O(1)
             {
                 System.out.println("true"); // Constant time operation O(1)
             }
@@ -120,7 +120,7 @@ public class Main
         int a = 10;
         if(a == 10)
         {
-            if(10 == '10')
+            if("10".equals(a))
             {
                 System.out.println("true");
             }
