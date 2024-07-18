@@ -283,7 +283,7 @@ O(1).
 
 # O(1) Time Complexity Examples
 
-This document contains examples of code snippets with constant time complexity, \(O(1)\). Each operation in these examples takes a constant amount of time, regardless of input size.
+Each operation in these examples takes a constant amount of time \(O(1)\), regardless of input size.
 
 ## 1. **Variable Assignment** ✏️
 
@@ -374,7 +374,7 @@ class Point {
         return "Point(" + x + ", " + y + ")"; // Constant time operation O(1)
     }
 }
-
+```
 ## 7. Setting a Value in a Map 🗺️
 
 ```java
