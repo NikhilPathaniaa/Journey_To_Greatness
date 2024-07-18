@@ -26,6 +26,8 @@ O(1).
 <br>
 # Another Example
 <br>
+The given Java code snippet has the following structure:
+
 ```java
 public class Main
 {
