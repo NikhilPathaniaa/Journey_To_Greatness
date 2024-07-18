@@ -299,3 +299,15 @@ public class Example1 {
     }
 }
 ```
+## 2. **Accessing an Array Element 📚
+
+```java
+public class Example2 {
+    public static void main(String[] args) {
+        int[] array = {1, 2, 3, 4, 5};
+        int element = array[2]; // Constant time operation O(1)
+        System.out.println(element); // Constant time operation O(1)
+    }
+}
+
+```
