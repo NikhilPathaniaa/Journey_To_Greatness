@@ -1,4 +1,4 @@
-##Second Largest Element in an Array without sorting
+## Second Largest & Smallest Element in an Array without sorting
 
 Example:
 
@@ -17,7 +17,7 @@ public class SecondLargestElement {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[] = {1,2,4,7,7,5};
+		int arr[] = {5,7,2,4,7,1};
 		int n = arr.length;
 		System.out.println("second smallest - "+secondSmallest(arr,n));
 		secondLargest(arr);
