@@ -11,7 +11,7 @@ Output
     True
 ```
 
-Explanation:
+**_ Explanation: _**
 The given array is sorted i.e Every element in the array is smaller than or equals to its next values, So the answer is True.
 
 ```java
