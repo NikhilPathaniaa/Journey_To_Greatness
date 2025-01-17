@@ -18,3 +18,9 @@ public class LargestElement {
 
 }
 ```
+
+Output
+
+```java
+5
+```
