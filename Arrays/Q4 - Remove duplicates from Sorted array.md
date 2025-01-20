@@ -25,13 +25,9 @@ public class RemoveDuplicatefromSortedArray {
 	public static void main(String[] args) {
 		int arr[] = {1,1,2,2,3,3};
 
-		for(int i=0;i<arr.length;i++)
-		{
-			h1.add(arr[i]);
-		}
 		int length = duplicate(arr);
 
-		for(int i=0;i<length;i++)
+		for(int i = 0 ; i < length ; i++)
 		{
 			System.out.print(arr[i]+" ");
 		}
