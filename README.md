@@ -133,4 +133,3 @@ console.log(recursiveFibonacci(6)); // 8
 
 In the code above, the algorithm specifies a growth rate that doubles every time the input data set is added. This means the time complexity is exponential with an order O(2^n).
  
-This is new word man 
