@@ -68,7 +68,44 @@ public class Demo {
 
 ## Approach 2: Optimized Sliding Window
 
-### **Optimized Code:**
+### **Optimized Code 1:**
+
+```java
+public class Demo {
+    public static void main(String[] args) {
+        int arr[] = {8,3,-2,4,5,-1,0,5,3,9,-6};
+        int k = 5;
+        System.out.println(checkGreatestOptimize(arr, k));
+    }
+    private static int checkGreatestOptimize(int[] arr, int k) {
+        int currentSum = 0;
+
+        // Compute sum of first k elements
+        for (int i = 0; i < k; i++) {
+            currentSum += arr[i];
+        }
+        int maxSum = currentSum;
+
+        // Sliding window approach
+       	start=1;
+		end=k;
+
+		while(end<arr.length)
+		{
+			currentSum =currentSum +arr[end]-arr[start-1];
+			start++;
+			end++;
+			if(currentSum>maxSum)
+			{
+				maxSum=currentSum;
+			}
+		}
+		return maxSum;
+    }
+}
+```
+
+### **Optimized Code ChatGPT:**
 
 ```java
 public class Demo {
