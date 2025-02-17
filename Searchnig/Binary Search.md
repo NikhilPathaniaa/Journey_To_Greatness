@@ -1,5 +1,18 @@
-```java
+## Binary Search
 
+**Example**
+
+```java
+Input
+arr[]= 1 2 3 4 5, num = 3
+
+Output
+2
+```
+
+**Explanation** 3 is present in the 2nd index
+
+```java
 public class BinarySearch {
 
     public static void main(String[] args) {
@@ -41,4 +54,10 @@ public class BinarySearch {
 
 }
 
+```
+
+**Output**
+
+```java
+2
 ```
