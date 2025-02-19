@@ -28,3 +28,9 @@ public class SelectionSort {
 }
 
 ```
+
+Output
+
+```java
+[1, 2, 3, 5, 9]
+```
