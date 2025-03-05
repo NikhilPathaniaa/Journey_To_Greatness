@@ -15,27 +15,39 @@ Output: str = “geeks.for.geeks”
 
 ```java
 public class ReverseWord {
+    public static void main(String[] args) {
+        String s = "......i.like.this..program..very.much......";
 
-	public static void main(String[] args) {
-		String s= "i.like.this..program..very.much.";
-		s=s.replaceAll("\\.+", ".");
-		String arr[]=s.split("\\.");
-		String s1="";
-		for(int i=arr.length-1;i>=0;i--)
-		{
-			if (!s1.isEmpty()) { // Add dot only between words
+        // Replace multiple dots with a single dot
+        s = s.replaceAll("\\.+", ".");
+
+        // Remove leading or trailing dot if present
+        if (s.startsWith(".")) {
+            s = s.substring(1);
+        }
+        if (s.endsWith(".")) {
+            s = s.substring(0, s.length() - 1);
+        }
+
+        // Split the string by "."
+        String arr[] = s.split("\\.");
+
+        // Reverse the words
+        String s1 = "";
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (!s1.isEmpty()) { // Add dot only between words
                 s1 += ".";
             }
-			s1+=arr[i];
-		}
-       System.out.println(s1);
-	}
+            s1 += arr[i];
+        }
 
+        System.out.println(s1); // Correct output
+    }
 }
 ```
 
 Output
 
 ```
-i.like.this..program..very.much.
+i.like.this..program..very.much
 ```
