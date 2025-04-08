@@ -1,14 +1,17 @@
-// Check whether a given number is even or odd
+## Check whether a given number is even or odd
 
-// Examples: 
+**_Examples:_**
 
-// Input: 2 
-// Output: true
+```java
+Input: 2
+Output: true
 
 
-// Input: 5
-// Output: false
+Input: 5
+Output: false
+```
 
+````java
 class EvenOrOdd
 {
     public static void main(String[] args)
@@ -29,6 +32,8 @@ class EvenOrOdd
         else
             return false;
     }
-}
+}```
 
-// Output: Odd
+```java
+Output: Odd
+````
