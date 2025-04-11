@@ -1,4 +1,4 @@
-﻿# Journey_To_Greatness
+y﻿# Journey_To_Greatness
 ## Big O Time Complexity Examples
 Constant Time: O(1)
 When your algorithm is not dependent on the input size n, it is said to have a constant time complexity with order O(1). This means that the run time will always be the same regardless of the input size.
@@ -10,6 +10,7 @@ class Test
     public static void main(String []args)
     {
         System.out.println("My First Java Program.");
+go
 work
     }
 };
